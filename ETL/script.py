@@ -75,7 +75,7 @@ conn.commit()
 c.close()
 
 for city in cities.split(', '):
-    URL = 'https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/' + indicator_list + '/resultados/' + city
+    URL = 'https://servicodados.ibge.gov.br/api/v1/pesquisas/indicadores/' + indicator_list + '/resultados/' + '4204608|4204806'
 
     r = requests.get(URL)
 

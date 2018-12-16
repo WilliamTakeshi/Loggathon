@@ -3,7 +3,7 @@ def organize_response(indicators, response):
     for research in response:
         indicators_description = indicators[research['id']]
         value = last_result(research['res'][0]['res'])
-        organized_dict[indicators_description] = value
+        organized_dict[research['res'][0]['localidade']][indicators_description] = value
     return organized_dict
 
 
