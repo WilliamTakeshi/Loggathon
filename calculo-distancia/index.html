@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <input type="number" id="index"></input> 
+    <input type="number" id="array"></input>
+    <button onclick="submit()" id="button">ok</button>
+    <button onclick="save()" >save</button>
+    <button onclick="load()" >load json</button>
+
+    <input type="number" id="threshold"></input>
+    <select id="selector">
+      <option value="1302603">Manaus</option>
+      <option value="2304400">Fortaleza</option>
+      <option value="2611606">Recife</option>
+      <option value="2927408">Salvador</option>
+      <option value="3106200">Belo Horizonte</option>
+      <option value="3304557">Rio de Janeiro</option>
+      <option value="3509502">Campinas</option>
+      <option value="3543402">Ribeirão Preto</option>
+      <option value="3548500">Santos</option>
+      <option value="3549904">São José dos Campos</option>
+      <option value="3550308">São Paulo</option>
+      <option value="4106902">Curitiba</option>
+      <option value="4314902">Porto Alegre</option>
+      <option value="5208707">Goiânia</option>
+      <option value="5300108">Brasília</option>
+
+    </select>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFPcf4tDTqFqQNEFxyIeet6BSfOQWdiSQ&callback=initMap"
+    ></script>
+  </body>
+</html>
+                
